@@ -31,6 +31,6 @@ This project is designed to showcase my mobile development skills by integrating
 ### Installation
 
 1. **Clone the repository:**
-
+   
    ```bash
    git clone https://github.com/dontkeep/MobileDevAppInternTest.git
