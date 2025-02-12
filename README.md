@@ -7,7 +7,7 @@ This repository contains a sample Android project developed as part of a mobile 
 - [About](#about)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Muchammad Romadona](https://linkedin.com/in/muchammad-romadona-loyalty)
+- [Author and Developer](https://linkedin.com/in/muchammad-romadona-loyalty)
 
 ## About
 
