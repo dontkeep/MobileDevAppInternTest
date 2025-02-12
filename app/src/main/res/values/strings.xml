@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Mobile Developer Intern Test</string>
+  <string name="name">Name</string>
+  <string name="user_icon">User Icon</string>
+  <string name="palindrome">Palindrome</string>
+  <string name="check">CHECK</string>
+  <string name="next">NEXT</string>
+  <string name="welcome">Welcome</string>
+  <string name="choose_a_user">Choose a User</string>
+  <string name="email">Email</string>
+  <string name="selected_user_name">Selected User Name</string>
+</resources>

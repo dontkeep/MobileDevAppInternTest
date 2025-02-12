@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:background="@drawable/bg">
+
+  <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/user_icon"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="150dp"
+    android:contentDescription="@string/user_icon"
+    android:src="@drawable/profile"
+    android:padding="20dp" />
+
+  <EditText
+    android:id="@+id/name_input"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/user_icon"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:autofillHints="Name"
+    android:background="@drawable/rounded_edittext"
+    android:hint="@string/name"
+    android:padding="15dp"
+    android:textColor="#000"
+    android:textSize="16sp"
+    android:inputType="text"
+    />
+
+  <!-- Palindrome Input -->
+  <EditText
+    android:id="@+id/palindrome_input"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/name_input"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:autofillHints="Palindrome"
+    android:background="@drawable/rounded_edittext"
+    android:hint="@string/palindrome"
+    android:inputType="text"
+    android:padding="15dp"
+    android:textColor="#000"
+    android:textSize="16sp" />
+
+  <!-- Check Button -->
+  <Button
+    android:id="@+id/check_button"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/palindrome_input"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:backgroundTint="@color/navy"
+    android:text="@string/check"
+    app:cornerRadius="10dp"
+    android:textColor="#fff"
+    android:textSize="16sp" />
+
+  <!-- Next Button -->
+  <Button
+    android:id="@+id/next_button"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/check_button"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15dp"
+    android:backgroundTint="@color/navy"
+    app:cornerRadius="10dp"
+    android:text="@string/next"
+    android:textColor="#fff"
+    android:textSize="16sp" />
+
+</RelativeLayout>
